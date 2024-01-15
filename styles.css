@@ -1,0 +1,487 @@
+.base {
+    width: 414px;
+    height: 279px;
+    left: 280px;
+    top: 341px;
+    position: absolute;
+  }
+.fond {
+    width: 100%;
+    height: 100%;
+    transform: scaleX(-1);
+  }
+  
+.nom {
+    color: white;
+    font-size: 128px;
+    font-family: Inter; 
+   
+  }
+  
+.prenom {
+    color:white;
+    font-size: 96px;
+    font-family: Inter;
+    font-style: italic;
+    
+  }
+
+.forme {
+    color: black;
+    font-size: 96px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+.navbar {
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #2e6079;
+    position:fixed;
+    z-index: 2;
+  }
+
+a {
+  text-decoration: none;
+  display: inline;
+  font-size: 25px;
+  }
+
+a::after{
+  content:"";
+  display:block;
+  position: absolute; 
+  width:100%;
+  height:3px;
+  background: white;
+  transform: scale(0);
+  transition: transform 0.2s ease-in-out
+
+}
+a:hover::after{
+  transform:scale(1);
+}
+
+.contact {
+
+    left: 1300px;
+    top: 26px;
+    position: absolute;
+    color: white;
+    font-family: Inter;
+    font-weight: 200;
+    word-wrap: break-word;
+    position:fixed;
+    z-index: 2;
+  }
+  
+.apropos {
+    left: 915px;
+    top: 26px;
+    position: absolute;
+    color: white;
+    font-family: Inter;
+    font-weight: 200;
+    word-wrap: break-word;
+    position:fixed;
+    z-index: 2;
+  }
+  
+.projets {
+    left: 1200px;
+    top: 26px;
+    position: absolute;
+    color: white;
+    font-family: Inter;
+    font-weight: 200;
+    word-wrap: break-word;
+    position:fixed;
+    z-index: 2;
+  }
+  .accueil {
+    left: 810px;
+    top: 26px;
+    position: absolute;
+    color: white;
+    font-family: Inter;
+    font-weight: 200;
+    word-wrap: break-word;
+    position:fixed;
+    z-index: 2;
+  }
+  .competences {
+    left: 1035px;
+    top: 26px;
+    position: absolute;
+    color: white;
+    font-family: Inter;
+    font-weight: 200;
+    word-wrap: break-word;
+    position:fixed;
+    z-index: 2;
+  }
+  #apropos2 {
+    width: 904px;
+    height: 141px;
+    left: 27px;
+    top: 1179px;
+    position: absolute;
+    color: black;
+    font-size: 78px;
+    font-family: Inter;
+    font-weight: 200;
+    word-wrap: break-word;
+  }
+  
+  .texte {
+    width: 384px;
+    height: 240px;
+    left: 67px;
+    top: 1365px;
+    position: absolute;
+    color: black;
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: lighter;
+    word-wrap: break-word;
+  }
+  .photo {
+    width: 550px;
+    height: 550px;
+    left: 784px;
+    top: 1170px;
+    position: absolute;
+    filter: grayscale(100%);
+    transition: 500ms ease-in-out;
+  }
+  .photo:hover{
+    filter: grayscale(0%);
+  }
+  #competences2 {
+    width: 904px;
+    height: 141px;
+    left: 22px;
+    top: 2149px;
+    position: absolute;
+    color: black;
+    font-size: 78px;
+    font-family: Inter;
+    font-weight: 200;
+    word-wrap: break-word;
+  }
+  
+  .developpement {
+    width: 385px;
+    height: 48px;
+    left: 89px;
+    top: 2290px;
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: 200;
+    word-wrap: break-word;
+  }
+  .integration {
+    width: 200px;
+    height: 48px;
+    left: 89px;
+    top: 2422px;
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: 200;
+    word-wrap: break-word;
+  }
+  
+  .productiong {
+    width: 396px;
+    height: 49px;
+    left: 91px;
+    top: 2554px;
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: 200;
+    word-wrap: break-word;
+  }
+  
+  .productiona {
+    width: 436px;
+    height: 48px;
+    left: 89px;
+    top: 2687px;
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: 200;
+    word-wrap: break-word;
+  }
+  
+  .stategie {
+    width: 520px;
+    height: 48px;
+    left: 89px;
+    top: 2819px;
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: 200;
+    word-wrap: break-word;
+  }
+  
+  .barreb1 {
+    width: 775px;
+    height: 26px;
+    left: 637px;
+    top: 2303px;
+    position: absolute;
+    background: #d9d9d9;
+    border-radius: 9999px;
+  }
+  .barreb2 {
+    width: 775px;
+    height: 26px;
+    left: 637px;
+    top: 2843px;
+    position: absolute;
+    background: #d9d9d9;
+    border-radius: 9999px;
+  }
+  .barreb3 {
+    width: 775px;
+    height: 26px;
+    left: 637px;
+    top: 2685px;
+    position: absolute;
+    background: #d9d9d9;
+    border-radius: 9999px;
+  }
+  .barreb4 {
+    width: 775px;
+    height: 26px;
+    left: 637px;
+    top: 2568px;
+    position: absolute;
+    background: #d9d9d9;
+    border-radius: 9999px;
+  }
+  .barreb5 {
+    width: 775px;
+    height: 26px;
+    left: 637px;
+    top: 2433px;
+    position: absolute;
+    background: #d9d9d9;
+    border-radius: 9999px;
+  }
+  .barrev1 {
+    width: 71px;
+    height: 25px;
+    left: 637px;
+    top: 2305px;
+    position: absolute;
+    background: #2e6079;
+    border-radius: 9999px;
+  }
+  .barrev2 {
+    width: 71px;
+    height: 25px;
+    left: 637px;
+    top: 2435px;
+    position: absolute;
+    background: #2e6079;
+    border-radius: 9999px;
+  }
+  .barrev3 {
+    width: 167px;
+    height: 25px;
+    left: 637px;
+    top: 2568px;
+    position: absolute;
+    background: #2e6079;
+    border-radius: 9999px;
+  }
+  
+  .barrev4 {
+    width: 64px;
+    height: 25px;
+    left: 637px;
+    top: 2687px;
+    position: absolute;
+    background: #2e6079;
+    border-radius: 9999px;
+  }
+  .barrev5 {
+    width: 118px;
+    height: 25px;
+    left: 637px;
+    top: 2845px;
+    position: absolute;
+    background: #2e6079;
+    border-radius: 9999px;
+  }
+  #projets2 {
+    width: 904px;
+    height: 141px;
+    left: 41px;
+    top: 3289px;
+    position: absolute;
+    color: black;
+    font-size: 78px;
+    font-family: Inter;
+    font-weight: 200;
+    word-wrap: break-word;
+  }
+  
+  #contact2 {
+    width: 904px;
+    height: 141px;
+    left: 41px;
+    top: 7139px;
+    position: absolute;
+    color: black;
+    font-size: 78px;
+    font-family: Inter;
+    font-weight: 200;
+    word-wrap: break-word;
+  }
+  
+  
+  form {
+    height: 300px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 450%;
+    background-color: #2e6079;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input {
+    background: none;
+    border-style: solid;
+    border-width: 3px;
+    border-color: blanc;
+    border-radius: 20px;
+    outline: none;
+    width: 50%;
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+  }
+  
+  input:focus {
+    border-color: #2e6079;
+    width: 75%;
+  }
+  
+  
+  
+  .textef{
+    color: white;
+  }
+  
+  .altaleghje{
+    width: 448px; 
+    height: 629px;
+    right: 781px; 
+    top: 3465px; 
+    position: absolute;
+    filter: blur(5px);
+   transition: 500ms ease-in-out;
+  }
+  .altaleghje:hover{
+    filter: blur(0px);
+  }
+  .océan{
+    width: 448px; 
+    height: 629px; 
+    left: 764px; 
+    top: 4260px; 
+    position: absolute;
+    filter: blur(5px);
+    transition: 500ms ease-in-out;
+  }
+
+
+  .océan:hover{
+    filter: blur(0px);
+  }
+  .motif{
+    width: 685px; 
+    height: 458px;
+    left: 25%;
+    top: 5015px;
+    position: absolute;
+    filter: blur(5px);
+    transition: 500ms ease-in-out;
+  }
+
+  .motif:hover{
+    filter: blur(0px);
+  }
+  .pomme{
+    width: 685px;
+     height: 458px; 
+     left:25%; 
+     top: 5790px; 
+     position: absolute;
+     filter: blur(5px);
+     transition: 500ms ease-in-out;
+  }
+
+  .pomme:hover{
+    filter: blur(0px);
+  }
+  .statut{
+    width: 448px; 
+    height: 629px; 
+    right: 781px; 
+    top: 4260px; 
+    position: absolute;
+    filter: blur(5px);
+    transition: 500ms ease-in-out;
+  }
+
+  .statut:hover{
+    filter: blur(0px);
+  }
+.taxi{
+  width: 448px;
+   height: 629px; 
+   left: 781px; 
+   top: 3465px; 
+   position: absolute;
+   filter: blur(5px);
+   transition: 500ms ease-in-out;
+}
+
+.taxi:hover{
+  filter: blur(0px);
+}
+.visage{
+  width: 685px; 
+  height: 458px; 
+  left: 25%;
+   top: 6565px; 
+  position: absolute; 
+  filter: blur(5px);
+  transition: 500ms ease-in-out;
+}
+
+.visage:hover{
+  filter: blur(0px);
+}
